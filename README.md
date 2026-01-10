@@ -6,7 +6,7 @@ SQL-based business analysis of Zepto product data focusing on pricing trends, di
 To analyze Zepto’s product dataset using SQL and uncover business insights around:
 
 Pricing & discount strategy
-
+                                                                                                                          
 Revenue potential across categories
 
 Inventory health & risk
@@ -14,16 +14,16 @@ Inventory health & risk
 Product catalog structure & optimization
 
 This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.
-
+                                                                                                
 🧰 Tech Stack
 
 MySQL
 
 Excel (Data source & export)
 
-SQL (Advanced analytical queries)
+SQL (Advanced analytical queries)                                                                                                
 
-🗂️ Dataset Overview
+🗂️ Dataset Overview                                                                                                   
 
 Table: products
 
@@ -31,16 +31,16 @@ Column	Description
 Name	Product name
 Category	Product category
 mrp	Maximum Retail Price (₹)
-discountPercent	Discount percentage
+discountPercent	Discount percentage                                                                                                               
 availableQuantity	Units currently in stock
 discountedSellingPrice	Final selling price
 weightInGms	Product weight
 outOfStock	Stock availability flag
 quantity	Package quantity
-🧹 Data Cleaning & Preparation
+🧹 Data Cleaning & Preparation                                                                                       
 
 Performed directly in SQL:
-
+                                                       
 Null value validation (0 nulls across all critical fields)
 
 Removed duplicate product-name/category records for analysis consistency

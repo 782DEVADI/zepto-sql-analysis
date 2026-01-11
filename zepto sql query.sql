@@ -1,6 +1,6 @@
 create database Zepto_sql;
 
-use Zepto_sql;
+use Zepto_sql;                       
 
 CREATE TABLE products (
     Category VARCHAR(100),
@@ -12,7 +12,7 @@ CREATE TABLE products (
     weightInGms INT,
     outOfStock VARCHAR(10),
     quantity INT
-);
+);                                                          
 
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/zepto_v2.csv'
@@ -119,7 +119,7 @@ group by outofstock;
 
 SELECT 
   ROUND(SUM(outOfStock = 'TRUE') / COUNT(*) * 100, 2) AS out_of_stock_percent
-FROM products;
+FROM products;                                                                  
 
 
 -- Total categories
@@ -162,7 +162,7 @@ ORDER BY avg_discount DESC;
 -- checking duduplicates
 
 SELECT Name, Category, COUNT(*) AS duplicate_count
-FROM products
+FROM products                        
 GROUP BY Name, Category
 HAVING COUNT(*) > 1;
 

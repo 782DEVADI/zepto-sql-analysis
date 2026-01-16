@@ -1,6 +1,6 @@
-create database Zepto_sql;        
+create database Zepto_sql;                         
 
-use Zepto_sql;                       
+use Zepto_sql;                                                              
 
 CREATE TABLE products (
     Category VARCHAR(100),
@@ -21,7 +21,7 @@ CHARACTER SET latin1
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 ROWS ;
+IGNORE 1 ROWS ;                                       
 
 SELECT COUNT(*) FROM products;
 

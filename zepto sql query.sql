@@ -1,5 +1,5 @@
 create database Zepto_sql;                         
-
+               
 use Zepto_sql;                                                              
 
 CREATE TABLE products (

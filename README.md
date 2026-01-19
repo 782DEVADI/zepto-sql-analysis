@@ -1,11 +1,11 @@
 # zepto-sql-analysis                                                                                                                                                                                                
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                            
                                                                                                   
-📌 Project Objective                                                                                                                                                                                          
+📌 Project Objective                                                                                                                                                                                         
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                             
           
-Pricing & discount strategy                                                                                                                                                                                  
+Pricing & discount strategy                                                                                                                                                                                         
                                                                                                                                                                                                        
 Revenue potential across categories                                                                               
                                                                                                                                                                  

@@ -53,11 +53,11 @@ select * from zepto_v2
 limit 10 ;
 
 
--- Null values
+-- Null values                                  
 
 select * from zepto_V2
-where Name is null
-or
+where Name is null                                          
+or                 
 category is null
 or
 mrp is null

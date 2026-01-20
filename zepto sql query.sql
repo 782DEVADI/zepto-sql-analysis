@@ -1,10 +1,10 @@
-create database Zepto_sql;                         
+create database Zepto_sql;                                                                     
                
-use Zepto_sql;                                                              
+use Zepto_sql;                                                                                                          
 
 CREATE TABLE products (
     Category VARCHAR(100),
-    name VARCHAR(150),
+    name VARCHAR(150),                                                                   
     mrp INT,
     discountPercent INT,
     availableQuantity INT,
@@ -15,7 +15,7 @@ CREATE TABLE products (
 );                                                          
 
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/zepto_v2.csv'
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/zepto_v2.csv'                                                    
 INTO TABLE products
 CHARACTER SET latin1
 FIELDS TERMINATED BY ','

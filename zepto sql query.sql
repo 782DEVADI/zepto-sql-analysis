@@ -3,15 +3,15 @@ create database Zepto_sql;
 use Zepto_sql;                                                                                                          
 
 CREATE TABLE products (
-    Category VARCHAR(100),
+    Category VARCHAR(100),                          
     name VARCHAR(150),                                                                   
-    mrp INT,
+    mrp INT,                                                             
     discountPercent INT,
     availableQuantity INT,
     discountedSellingPrice INT,
     weightInGms INT,
     outOfStock VARCHAR(10),
-    quantity INT
+    quantity INT                                   
 );                                                          
 
 

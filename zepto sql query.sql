@@ -1,4 +1,4 @@
-create database Zepto_sql;                                                                     
+create database Zepto_sql;                                                                                                                
                
 use Zepto_sql;                                                                                                          
 
@@ -10,7 +10,7 @@ CREATE TABLE products (
     availableQuantity INT,
     discountedSellingPrice INT,
     weightInGms INT,
-    outOfStock VARCHAR(10),
+    outOfStock VARCHAR(10),                                           
     quantity INT                                   
 );                                                          
 

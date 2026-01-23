@@ -1,5 +1,5 @@
 # zepto-sql-analysis                                                                                                                                                                                                
-SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                            
+SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                     
                                                                                                   
 📌 Project Objective                                                                                                                                                                                         
 
@@ -11,9 +11,9 @@ Revenue potential across categories
                                                                                                                                                                  
 Inventory health & risk                                                                                                                                                       
 
-Product catalog structure & optimization                                                                                                                                                                                                                                                                       
+Product catalog structure & optimization                                                                                                                                                                                                                                                                                                        
 
-This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                 
+This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
                                                                                                 
 🧰 Tech Stack                                       
                           

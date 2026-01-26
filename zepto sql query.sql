@@ -1,6 +1,6 @@
-create database Zepto_sql;                                                                                                                
+create database Zepto_sql;                                                                                                                                                                         
                
-use Zepto_sql;                                                                                                          
+use Zepto_sql;                                                                                                                                                     
 
 CREATE TABLE products (
     Category VARCHAR(100),                          
@@ -16,7 +16,7 @@ CREATE TABLE products (
 
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/zepto_v2.csv'                                                    
-INTO TABLE products
+INTO TABLE products                                                                               
 CHARACTER SET latin1
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'

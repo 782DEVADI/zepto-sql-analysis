@@ -1,6 +1,6 @@
-# zepto-sql-analysis                                                                                                                                                                                                 
+# zepto-sql-analysis                                                                                                                                                                                                                                                                         
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                            
-                                                                                                  
+                                                                                                                                                                     
 📌 Project Objective                                                                                                                                                                                         
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
@@ -58,7 +58,7 @@ Identified top revenue-driving categories:
 
 Category	Estimated Revenue (₹)
 Cooking Essentials	337,369
-Munchies	337,369
+Munchies	337,369                                                     
 Personal Care	270,849
 Packaged Food	224,385
 Ice Cream & Desserts	224,385
@@ -69,7 +69,7 @@ Top premium products by selling price:
 Borges Extra Light Olive Oil – ₹1,399
 
 Praakritik A2 Ghee – ₹1,305
-
+                                                                                
 Saffola Gold Oil – ₹1,240
 
 These premium kitchen staples dominate high-value purchases.

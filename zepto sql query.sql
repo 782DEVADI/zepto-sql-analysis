@@ -1,4 +1,4 @@
-create database Zepto_sql;                                                                                                                                                                         
+create database Zepto_sql;                                                                                                                                                                                                                     
                
 use Zepto_sql;                                                                                                                                                     
 
@@ -63,7 +63,7 @@ or
 mrp is null
 or
 discountPercent is null
-or
+or                                                                                         
 availableQuantity is null
 or
 discountedSellingPrice is null
@@ -128,7 +128,7 @@ SELECT COUNT(DISTINCT Category) AS total_categories
 FROM products;
 
 -- Products per category
-
+                                                                             
 SELECT Category, COUNT(*) AS product_count
 FROM products
 GROUP BY Category
@@ -147,7 +147,7 @@ SELECT discountPercent, COUNT(*) AS products
 FROM products
 GROUP BY discountPercent
 ORDER BY discountPercent DESC;
-
+                                                                                                                
 -- Avg discount per category
 
 SELECT Category, ROUND(AVG(discountPercent),2) AS avg_discount

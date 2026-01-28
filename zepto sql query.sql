@@ -1,4 +1,4 @@
-create database Zepto_sql;                                                                                                                                                                                                                     
+create database Zepto_sql;                                                                                                                                                                                                                                                       
                
 use Zepto_sql;                                                                                                                                                     
 
@@ -29,12 +29,12 @@ create table zepto_V1 like zepto_V2;
 
 
 
-SELECT COUNT(*) AS v1_rows FROM zepto_v1;
-SELECT COUNT(*) AS v2_rows FROM zepto_v2;
+SELECT COUNT(*) AS v1_rows FROM zepto_v1;                                                          
+SELECT COUNT(*) AS v2_rows FROM zepto_v2;                                    
 
 
 ---- =====================
----  Zepto Analysis Project
+---  Zepto Analysis Project                                                   
 --- Author: Dev Aditya
 ---- ======================
 

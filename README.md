@@ -1,7 +1,7 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                         
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                     
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                            
                                                                                                                                                                      
-📌 Project Objective                                                                                                                                                                                         
+📌 Project Objective                                                                                                                                                                                       
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
           
@@ -15,7 +15,7 @@ Product catalog structure & optimization
 
 This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
                                                                                                 
-🧰 Tech Stack                                       
+🧰 Tech Stack                                                                           
                           
 MySQL                                                                                                                                                              
 
@@ -104,7 +104,7 @@ Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories
 
 Indicates possible supply chain constraints for premium SKUs.
 
-6️⃣ Product Size Segmentation
+6️⃣ Product Size Segmentation                             
 Product Size	SKU Count
 Low	2,833
 Medium	837

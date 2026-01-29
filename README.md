@@ -1,17 +1,15 @@
 # zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                     
-SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                            
+SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                           
                                                                                                                                                                      
-📌 Project Objective                                                                                                                                                                                       
+📌 Project Objective                                                                                                                                                                                         
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
           
-Pricing & discount strategy                                                                                                                                                                             
-                                                                                                                                                                                                              
-Revenue potential across categories                                                                                             
+Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                   
+Revenue potential across categories                                                                                                               
                                                                                                                                                                  
-Inventory health & risk                                                                                                                                                       
-
-Product catalog structure & optimization                                                                                                                                                                                                                                                                                                                                                                                                      
+Inventory health & risk                                                                                                                                                                                                   
+Product catalog structure & optimization                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
                                                                                                 
@@ -82,15 +80,15 @@ Category	Avg Discount (%)
 Fruits & Vegetables	15.46%
 Meats, Fish & Eggs	11.03%
 Chocolates & Candies	8.32%
-Ice Cream & Desserts	8.32%
+Ice Cream & Desserts	8.32%                                  
 
-High discounts on essentials suggest customer acquisition & retention strategy.
+High discounts on essentials suggest customer acquisition & retention strategy.                                    
 
-4️⃣ Best-Value Promotions
+4️⃣ Best-Value Promotions                                                                                                                              
 
 Products with 50–51% discounts drive promotional traction:
 
-Dukes Waffy Wafers — 51%
+Dukes Waffy Wafers — 51%                                                                                     
 
 Chef’s Basket Pasta — 50%
 

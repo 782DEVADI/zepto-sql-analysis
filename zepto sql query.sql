@@ -235,7 +235,7 @@ ORDER BY discountPercent DESC;
 
 SELECT Name, Category, discountedSellingPrice
 FROM products
-WHERE availableQuantity > 100 AND discountPercent = 0;
+WHERE availableQuantity > 100 AND discountPercent = 0;                                                  
 
 
 --- ======================
@@ -274,12 +274,12 @@ GROUP BY Category
 ORDER BY avg_discount DESC
 LIMIT 5;
 
--- Product Size Segmentation (Low / Medium / Bulk)
+-- Product Size Segmentation (Low / Medium / Bulk)                                                       
 
 SELECT 
     CASE 
         WHEN weightInGms < 500 THEN 'Low'
-        WHEN weightInGms BETWEEN 500 AND 2000 THEN 'Medium'
+        WHEN weightInGms BETWEEN 500 AND 2000 THEN 'Medium'                                                 
         ELSE 'Bulk'
     END AS product_size,
     COUNT(*) AS product_count

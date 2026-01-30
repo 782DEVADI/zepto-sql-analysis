@@ -1,14 +1,14 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                     
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                   
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                           
                                                                                                                                                                      
-📌 Project Objective                                                                                                                                                                                         
+📌 Project Objective                                                                                                                                                                                       
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
           
 Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                   
 Revenue potential across categories                                                                                                               
                                                                                                                                                                  
-Inventory health & risk                                                                                                                                                                                                   
+Inventory health & risk                                                                                                                                                                                                                                                 
 Product catalog structure & optimization                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
@@ -124,9 +124,9 @@ Inventory Risk: Premium items show supply constraints.
 
 Catalog Optimization: Heavy skew toward low-weight SKUs boosts delivery efficiency.
 
-🧪 Sample Queries Included
+🧪 Sample Queries Included                                             
 
-Revenue estimation per category
+Revenue estimation per category                  
 
 High-MRP & out-of-stock detection
 

@@ -92,7 +92,7 @@ weightInGms is null
 or
 outofstock is null
 or
-quantity is null;
+quantity is null;                              
 
 
 
@@ -171,8 +171,8 @@ FROM products
 WHERE (Name, Category) IN (
     SELECT Name, Category
     FROM products
-    GROUP BY Name, Category
-    HAVING COUNT(*) > 1
+    GROUP BY Name, Category                                     
+    HAVING COUNT(*) > 1                                     
 )
 ORDER BY Name, Category;
 
@@ -244,7 +244,7 @@ WHERE availableQuantity > 100 AND discountPercent = 0;
 
 -- Top 10 Best-Value Products (by Discount %)
 
-SELECT Name, Category, mrp, discountedSellingPrice, discountPercent
+SELECT Name, Category, mrp, discountedSellingPrice, discountPercent                                 
 FROM products
 ORDER BY discountPercent DESC
 LIMIT 10;

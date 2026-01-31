@@ -1,11 +1,11 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                   
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                 
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                           
                                                                                                                                                                      
-📌 Project Objective                                                                                                                                                                                       
+📌 Project Objective                                                                                                                                                                                         
 
 To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
           
-Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                   
+Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                     
 Revenue potential across categories                                                                                                               
                                                                                                                                                                  
 Inventory health & risk                                                                                                                                                                                                                                                 
@@ -26,11 +26,11 @@ SQL (Advanced analytical queries)
 Table: products
 
 Column	Description
-Name	Product name
-Category	Product category
-mrp	Maximum Retail Price (₹)
-discountPercent	Discount percentage                                                                                                               
-availableQuantity	Units currently in stock
+Name	Product name               
+Category	Product category                              
+mrp	Maximum Retail Price (₹)                        
+discountPercent	Discount percentage                                                                                                                                    
+availableQuantity	Units currently in stock                                                                                 
 discountedSellingPrice	Final selling price
 weightInGms	Product weight                                
 outOfStock	Stock availability flag                         
@@ -128,7 +128,7 @@ Catalog Optimization: Heavy skew toward low-weight SKUs boosts delivery efficien
 
 Revenue estimation per category                  
 
-High-MRP & out-of-stock detection
+High-MRP & out-of-stock detection                                                        
 
 Discount optimization analysis
 

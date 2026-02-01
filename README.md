@@ -3,12 +3,12 @@ SQL-based business analysis of Zepto product data focusing on pricing trends, di
                                                                                                                                                                      
 📌 Project Objective                                                                                                                                                                                         
 
-To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                               
+To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                                                                        
           
 Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                     
-Revenue potential across categories                                                                                                               
+Revenue potential across categories                                                                                                                                  
                                                                                                                                                                  
-Inventory health & risk                                                                                                                                                                                                                                                 
+Inventory health & risk                                                                                                                                                                                                                                                                              
 Product catalog structure & optimization                                                                                                                                                                                                                                                                                                                                                                                                                  
 
 This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
@@ -59,8 +59,8 @@ Cooking Essentials	337,369
 Munchies	337,369                                                     
 Personal Care	270,849
 Packaged Food	224,385
-Ice Cream & Desserts	224,385
-2️⃣ Pricing & Premium Products
+Ice Cream & Desserts	224,385                                            
+2️⃣ Pricing & Premium Products                                     
 
 Top premium products by selling price:
 
@@ -79,9 +79,9 @@ Top categories by average discount:
 Category	Avg Discount (%)
 Fruits & Vegetables	15.46%
 Meats, Fish & Eggs	11.03%
-Chocolates & Candies	8.32%
-Ice Cream & Desserts	8.32%                                  
-
+Chocolates & Candies	8.32%                        
+Ice Cream & Desserts	8.32%                                                                   
+                                     
 High discounts on essentials suggest customer acquisition & retention strategy.                                    
 
 4️⃣ Best-Value Promotions                                                                                                                              

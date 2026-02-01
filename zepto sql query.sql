@@ -3,7 +3,7 @@ create database Zepto_sql;
 use Zepto_sql;                                                                                                                                                     
 
 CREATE TABLE products (
-    Category VARCHAR(100),                          
+    Category VARCHAR(100),                                                 
     name VARCHAR(150),                                                                   
     mrp INT,                                                             
     discountPercent INT,
@@ -34,11 +34,11 @@ SELECT COUNT(*) AS v2_rows FROM zepto_v2;
 
 
 ---- =====================
----  Zepto Analysis Project                                                   
---- Author: Dev Aditya
----- ======================
+---  Zepto Analysis Project                                                                                   
+--- Author: Dev Aditya                    
+---- ======================                                                   
 
--- data Exploration
+-- data Exploration                                              
 
 -- Count of rows
 

@@ -3,7 +3,7 @@ SQL-based business analysis of Zepto product data focusing on pricing trends, di
                                                                                                                                                                      
 📌 Project Objective                                                                                                                                                                                         
 
-To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                                                                        
+To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                                                                                                                          
           
 Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                                     
 Revenue potential across categories                                                                                                                                  
@@ -11,7 +11,7 @@ Revenue potential across categories
 Inventory health & risk                                                                                                                                                                                                                                                                              
 Product catalog structure & optimization                                                                                                                                                                                                                                                                                                                                                                                                                  
 
-This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                             
+This project simulates real-world decision-making scenarios faced by e-commerce and retail teams.                                                                                                      
                                                                                                 
 🧰 Tech Stack                                                                           
                           
@@ -30,8 +30,8 @@ Name	Product name
 Category	Product category                              
 mrp	Maximum Retail Price (₹)                        
 discountPercent	Discount percentage                                                                                                                                    
-availableQuantity	Units currently in stock                                                                                 
-discountedSellingPrice	Final selling price
+availableQuantity	Units currently in stock                                                                                                             
+discountedSellingPrice	Final selling price                             
 weightInGms	Product weight                                
 outOfStock	Stock availability flag                         
 quantity	Package quantity
@@ -47,10 +47,10 @@ Standardized price units from paise → rupees
 
 Validated out-of-stock flags
 
-Checked zero-MRP anomalies (found & documented edge cases)
+Checked zero-MRP anomalies (found & documented edge cases)                                                              
 
 🔍 Analysis Modules
-1️⃣ Category Revenue Potential
+1️⃣ Category Revenue Potential                                                               
 
 Identified top revenue-driving categories:
 

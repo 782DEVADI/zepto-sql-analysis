@@ -1,11 +1,11 @@
 create database Zepto_sql;                                                                                                                                                                                                                                                       
                
-use Zepto_sql;                                                                                                                                                     
+use Zepto_sql;                                                                                                                                                                                                                                  
 
-CREATE TABLE products (
-    Category VARCHAR(100),                                                                                           
+CREATE TABLE products (                                                                 
+    Category VARCHAR(100),                                                                                                                                                  
     name VARCHAR(150),                                                                   
-    mrp INT,                                                                                                                                           
+    mrp INT,                                                                                                                                                                
     discountPercent INT,                                                           
     availableQuantity INT,                                                
     discountedSellingPrice INT,                                                   

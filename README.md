@@ -1,4 +1,4 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                           
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                            
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                           
                                                                                                                                                                                          
 📌 Project Objective                                                                                                                                                                                       
@@ -129,11 +129,11 @@ Catalog Optimization: Heavy skew toward low-weight SKUs boosts delivery efficien
 Revenue estimation per category                  
 
 High-MRP & out-of-stock detection                                                        
-
+                                                                                               
 Discount optimization analysis
-
-Dead inventory identification
-
+                                                                                                    
+Dead inventory identification                                                    
+                                                                             
 Best-value product extraction
 
 Product size segmentation

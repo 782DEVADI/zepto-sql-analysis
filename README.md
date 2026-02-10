@@ -1,5 +1,5 @@
 # zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                                                                                          
+SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                                                                                                                   
                                                                                                                                                                                    
 📌 Project Objective                                                                                                                                                                                       
 
@@ -100,7 +100,7 @@ High-MRP products frequently out of stock:
 
 Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories
 
-Indicates possible supply chain constraints for premium SKUs.
+Indicates possible supply chain constraints for premium SKUs.                                               
 
 6️⃣ Product Size Segmentation                             
 Product Size	SKU Count
@@ -108,7 +108,7 @@ Low	2,833
 Medium	837
 Bulk	61
 
-Catalog is optimized for fast-moving, low-weight items → improved logistics efficiency.
+Catalog is optimized for fast-moving, low-weight items → improved logistics efficiency.                                                    
 
 🧠 Key Business Insights
 
@@ -130,9 +130,9 @@ Revenue estimation per category
 
 High-MRP & out-of-stock detection                                                        
                                                                                                
-Discount optimization analysis
+Discount optimization analysis                                                             
                                                                                                     
-Dead inventory identification                                                    
+Dead inventory identification                                                                                                                             
                                                                              
 Best-value product extraction
 

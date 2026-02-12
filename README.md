@@ -3,7 +3,7 @@ SQL-based business analysis of Zepto product data focusing on pricing trends, di
                                                                                                                                                                                    
 📌 Project Objective                                                                                                                                                                                       
 
-To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                                                                                                                                                                                                                    
+To analyze Zepto’s product dataset using SQL and uncover business insights around:                                                                                                                                                                                                                                                                                                                                              
           
 Pricing & discount strategy                                                                                                                                                                                                                                                                                                                                                                                           
 Revenue potential across categories                                                                                                                                                                             
@@ -98,13 +98,13 @@ Ceres Instant Masala — 50%
 
 High-MRP products frequently out of stock:
 
-Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories
+Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories                                                                        
 
 Indicates possible supply chain constraints for premium SKUs.                                               
 
 6️⃣ Product Size Segmentation                             
-Product Size	SKU Count
-Low	2,833
+Product Size	SKU Count                                                       
+Low	2,833                            
 Medium	837
 Bulk	61
 
@@ -128,7 +128,7 @@ Catalog Optimization: Heavy skew toward low-weight SKUs boosts delivery efficien
 
 Revenue estimation per category                  
 
-High-MRP & out-of-stock detection                                                        
+High-MRP & out-of-stock detection                                                                                                                                 
                                                                                                
 Discount optimization analysis                                                             
                                                                                                     

@@ -1,5 +1,5 @@
-create database Zepto_sql;                                                                                                                                                                                                                                                       
-               
+create database Zepto_sql;                                                                                                                                                                                                                                                  
+                                                    
 use Zepto_sql;                                                                                                                                                                                                                                  
 
 CREATE TABLE products (                                                                 
@@ -17,7 +17,7 @@ CREATE TABLE products (
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/zepto_v2.csv'                                                    
 INTO TABLE products                                                                               
-CHARACTER SET latin1
+CHARACTER SET latin1             
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -145,7 +145,7 @@ LIMIT 10;
 
 SELECT discountPercent, COUNT(*) AS products
 FROM products
-GROUP BY discountPercent
+GROUP BY discountPercent                                      
 ORDER BY discountPercent DESC;
                                                                                                                 
 -- Avg discount per category
@@ -157,9 +157,9 @@ ORDER BY avg_discount DESC;
 
 --- =========================================
 
--- DATA CLEANING
+-- DATA CLEANING                                                                                    
 
--- checking duduplicates
+-- checking duduplicates                                                             
 
 SELECT Name, Category, COUNT(*) AS duplicate_count
 FROM products                        

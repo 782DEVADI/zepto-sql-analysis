@@ -1,4 +1,4 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                                                                                                                   
                                                                                                                                                                                    
 📌 Project Objective                                                                                                                                                                                       
@@ -48,19 +48,19 @@ Standardized price units from paise → rupees
 Validated out-of-stock flags
 
 Checked zero-MRP anomalies (found & documented edge cases)                                                              
+                                                         
+🔍 Analysis Modules             
+1️⃣ Category Revenue Potential                                                                                              
 
-🔍 Analysis Modules
-1️⃣ Category Revenue Potential                                                               
+Identified top revenue-driving categories:                                                     
 
-Identified top revenue-driving categories:
-
-Category	Estimated Revenue (₹)
-Cooking Essentials	337,369
-Munchies	337,369                                                     
-Personal Care	270,849
-Packaged Food	224,385
-Ice Cream & Desserts	224,385                                            
-2️⃣ Pricing & Premium Products                                     
+Category	Estimated Revenue (₹)                                             
+Cooking Essentials	337,369                                              
+Munchies	337,369                                                                                           
+Personal Care	270,849                                                              
+Packaged Food	224,385             
+Ice Cream & Desserts	224,385                                                                                       
+2️⃣ Pricing & Premium Products                                                                                                             
 
 Top premium products by selling price:
 

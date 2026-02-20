@@ -1,5 +1,5 @@
-# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                                                                                                                                        
+# zepto-sql-analysis                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+SQL-based business analysis of Zepto product data focusing on pricing trends, discount strategies, inventory behavior, and catalog optimization.                                                                                                                                                                                                                                                                                
                                                                                                                                                                                                
 📌 Project Objective                                                                                                                                                                                               
 
@@ -98,9 +98,9 @@ Ceres Instant Masala — 50%
 
 High-MRP products frequently out of stock:
 
-Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories                                                                        
-
-Indicates possible supply chain constraints for premium SKUs.                                               
+Patanjali Cow’s Ghee (₹565) — Out of stock in multiple categories                                                                                               
+                                                               
+Indicates possible supply chain constraints for premium SKUs.                                                                   
 
 6️⃣ Product Size Segmentation                             
 Product Size	SKU Count                                                       
